@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #c1b4ae;
+  font-family: Roboto, sans-serif;
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  color: #353238;
+  font-size: 1.3em;
+}
+
+.story {
+  background: #8492a6;
+  border-radius: 20px;
+  padding: 1em;
+  display: flex;
+  flex-flow: column;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.chat {
+  display: flex;
+  flex-flow: column;
+  gap: 0.6em;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.message-div {
+  min-height: 30px;
+  padding: 0.5em;
+  /* background-color: #c1b4ae; */
+  border-radius: 10px;
+  overflow-wrap: break-word;
+}
+
+.username {
+  color: #33d6a6;
+}
+
+.quote {
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.hacker-message, .example {
+  background-color: #ec3750;
+  padding: 8px;
+  border-radius: 8px;
+  display: inline-block;
+  color: #fff;
+}
+
+.disclaimer {
+  padding: 0.5em;
+  background-color: #ec3750;
+  color: #fff;
+  font-size: 1.3em;
+  border-radius: 99999px;
+  text-align: center;
+  width: 50%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  outline: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #338eda;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 10px;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover {
+  background: #0053ba;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+a {
+  background-color: #f1c40f;
+  border-radius: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ec3750;
+}
